@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Precision Maintenance - HVAC Services in Central Florida</title>
-    <meta name="description" content="Premium HVAC services for Central Florida - Maintenance, Repair & Installation. Maintaining Your Cool.">
-    
+    <meta name="description" content="Premium HVAC services for Volusia, Seminole & Orange Counties — Maintenance, Repair & Installation. Maintaining Your Cool. Call 386-286-3630.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <!-- Navigation Bar -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="assets/pm_cover.jpg" alt="Precision Maintenance" class="logo-img">
-                <span class="logo-text">PM</span>
+                <span class="logo-mark">
+                    <span class="logo-p-box">P</span><span class="logo-m">M</span>
+                </span>
+                <span class="logo-name">Precision Maintenance</span>
             </div>
-            
+
             <div class="nav-menu" id="nav-menu">
                 <a href="#home" class="nav-link">Home</a>
-                <a href="#services" class="nav-link">Our Work</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#work" class="nav-link">Our Work</a>
                 <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#quote" class="nav-link nav-link-quote">Get a Quote</a>
                 <a href="#contact" class="nav-link">Contact</a>
-                <a href="tel:386-286-3630" class="nav-phone">386-286-3630</a>
+                <a href="tel:386-286-3630" class="nav-phone">
+                    <i class="fas fa-phone-alt"></i> 386-286-3630
+                </a>
             </div>
-            
+
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -42,22 +49,42 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section — CSS gradient background only, no image -->
     <section id="home" class="hero">
-        <div class="hero-background">
-            <img src="assets/pm_cover.jpg" alt="Precision Maintenance Hero" class="hero-img">
-        </div>
-        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="hero-title">Precision Maintenance</h1>
             <h2 class="hero-subtitle">Maintaining Your Cool</h2>
-            <p class="hero-description">Premium HVAC services for Central Florida — Maintenance, Repair & Installation</p>
+            <p class="hero-description">Premium HVAC services for Central Florida — Maintenance, Repair &amp; Installation</p>
             <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Schedule Service</a>
+                <a href="#quote" class="btn btn-primary">Get a Free Quote</a>
                 <a href="tel:386-286-3630" class="btn btn-secondary">Call Now: 386-286-3630</a>
             </div>
         </div>
     </section>
+
+    <!-- Trust Badges Bar -->
+    <div class="trust-bar">
+        <div class="container">
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <i class="fas fa-bolt"></i>
+                    <span>24/7 Emergency Service</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Licensed &amp; Insured</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-tag"></i>
+                    <span>Free Estimates</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Locally Owned</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Services Section -->
     <section id="services" class="services">
@@ -65,27 +92,109 @@
             <h2 class="section-title">What We Do</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-wrench"></i>
-                    </div>
+                    <div class="service-icon"><i class="fas fa-wrench"></i></div>
                     <h3 class="service-title">Maintenance</h3>
-                    <p class="service-description">Regular maintenance to keep your HVAC system running efficiently and prevent costly breakdowns.</p>
+                    <p class="service-description">Regular tune-ups and inspections to keep your HVAC system running efficiently and prevent costly breakdowns.</p>
                 </div>
-                
+
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3 class="service-title">Repair</h3>
-                    <p class="service-description">Fast, reliable repairs when your system breaks down. Available 24/7 for emergency service.</p>
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3 class="service-title">AC Repair</h3>
+                    <p class="service-description">Fast, reliable repairs when your system goes down. We diagnose and fix the problem right the first time.</p>
                 </div>
-                
+
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-snowflake"></i>
-                    </div>
+                    <div class="service-icon"><i class="fas fa-snowflake"></i></div>
                     <h3 class="service-title">Installation</h3>
-                    <p class="service-description">Professional installation of new HVAC systems with expert guidance on the best options for your home.</p>
+                    <p class="service-description">Professional installation of new AC and heating systems with expert guidance on the best options for your home.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-wind"></i></div>
+                    <h3 class="service-title">Duct Work</h3>
+                    <p class="service-description">Complete ductwork inspection, cleaning, sealing, and replacement for optimal airflow and energy efficiency.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3 class="service-title">System Replacement</h3>
+                    <p class="service-description">Full system replacement with energy-efficient equipment and professional removal of your old unit.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-fire"></i></div>
+                    <h3 class="service-title">Heating</h3>
+                    <p class="service-description">Heating system repair, maintenance, and installation for those cooler Central Florida nights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why" class="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Central Florida Trusts Precision Maintenance</h2>
+            <div class="why-content">
+
+                <!-- Mascot: featured prominently, natural rectangular shape -->
+                <div class="mascot-showcase">
+                    <div class="mascot-wrapper">
+                        <img src="assets/pm_selfie.jpg" alt="Your Precision Maintenance Technician" class="mascot-large">
+                    </div>
+                    <div class="mascot-caption">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Call or text anytime: <strong>386-286-3630</strong></span>
+                    </div>
+                </div>
+
+                <div class="trust-points">
+                    <div class="trust-point">
+                        <div class="trust-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="trust-text">
+                            <h3>Licensed &amp; Insured</h3>
+                            <p>Fully licensed and insured for your protection and complete peace of mind.</p>
+                        </div>
+                    </div>
+
+                    <div class="trust-point">
+                        <div class="trust-icon"><i class="fas fa-home"></i></div>
+                        <div class="trust-text">
+                            <h3>Locally Owned &amp; Operated</h3>
+                            <p>A Central Florida business serving our neighbors — not a national chain.</p>
+                        </div>
+                    </div>
+
+                    <div class="trust-point">
+                        <div class="trust-icon"><i class="fas fa-bolt"></i></div>
+                        <div class="trust-text">
+                            <h3>24/7 Emergency Service</h3>
+                            <p>When your AC goes out at 2am in a Florida summer, we show up.</p>
+                        </div>
+                    </div>
+
+                    <div class="trust-point">
+                        <div class="trust-icon"><i class="fas fa-tag"></i></div>
+                        <div class="trust-text">
+                            <h3>Upfront Pricing — No Surprises</h3>
+                            <p>You get a clear quote before any work begins. Always.</p>
+                        </div>
+                    </div>
+
+                    <div class="trust-point">
+                        <div class="trust-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="trust-text">
+                            <h3>Satisfaction Guaranteed</h3>
+                            <p>We don't leave until the job is done right and you're comfortable.</p>
+                        </div>
+                    </div>
+
+                    <div class="trust-point">
+                        <div class="trust-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <div class="trust-text">
+                            <h3>Serving Volusia, Seminole &amp; Orange Counties</h3>
+                            <p>Covering greater Central Florida from Daytona Beach to Orlando.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,38 +207,56 @@
             <div class="carousel-container">
                 <div class="carousel">
                     <div class="carousel-slide active">
-                        <div class="slide-placeholder">Project Photo 1</div>
+                        <div class="slide-placeholder slide-1">
+                            <i class="fas fa-snowflake slide-icon"></i>
+                            <span class="slide-coming-soon">Photo Coming Soon</span>
+                        </div>
                         <p class="slide-caption">Residential AC Installation</p>
                     </div>
                     <div class="carousel-slide">
-                        <div class="slide-placeholder">Project Photo 2</div>
+                        <div class="slide-placeholder slide-2">
+                            <i class="fas fa-wrench slide-icon"></i>
+                            <span class="slide-coming-soon">Photo Coming Soon</span>
+                        </div>
                         <p class="slide-caption">Commercial HVAC Repair</p>
                     </div>
                     <div class="carousel-slide">
-                        <div class="slide-placeholder">Project Photo 3</div>
+                        <div class="slide-placeholder slide-3">
+                            <i class="fas fa-wind slide-icon"></i>
+                            <span class="slide-coming-soon">Photo Coming Soon</span>
+                        </div>
                         <p class="slide-caption">Ductwork Replacement</p>
                     </div>
                     <div class="carousel-slide">
-                        <div class="slide-placeholder">Project Photo 4</div>
+                        <div class="slide-placeholder slide-4">
+                            <i class="fas fa-thermometer-half slide-icon"></i>
+                            <span class="slide-coming-soon">Photo Coming Soon</span>
+                        </div>
                         <p class="slide-caption">Thermostat Installation</p>
                     </div>
                     <div class="carousel-slide">
-                        <div class="slide-placeholder">Project Photo 5</div>
+                        <div class="slide-placeholder slide-5">
+                            <i class="fas fa-tools slide-icon"></i>
+                            <span class="slide-coming-soon">Photo Coming Soon</span>
+                        </div>
                         <p class="slide-caption">System Maintenance</p>
                     </div>
                     <div class="carousel-slide">
-                        <div class="slide-placeholder">Project Photo 6</div>
+                        <div class="slide-placeholder slide-6">
+                            <i class="fas fa-bolt slide-icon"></i>
+                            <span class="slide-coming-soon">Photo Coming Soon</span>
+                        </div>
                         <p class="slide-caption">Emergency Repair Service</p>
                     </div>
                 </div>
-                
-                <button class="carousel-btn carousel-btn-prev" id="prevBtn">
+
+                <button class="carousel-btn carousel-btn-prev" id="prevBtn" aria-label="Previous slide">
                     <i class="fas fa-chevron-left"></i>
                 </button>
-                <button class="carousel-btn carousel-btn-next" id="nextBtn">
+                <button class="carousel-btn carousel-btn-next" id="nextBtn" aria-label="Next slide">
                     <i class="fas fa-chevron-right"></i>
                 </button>
-                
+
                 <div class="carousel-indicators">
                     <span class="indicator active" data-slide="0"></span>
                     <span class="indicator" data-slide="1"></span>
@@ -139,68 +266,186 @@
                     <span class="indicator" data-slide="5"></span>
                 </div>
             </div>
-            <!-- TODO: Replace placeholder images with actual project photos -->
+            <!-- TODO: Replace placeholder slides with actual project photos -->
         </div>
     </section>
 
     <!-- Reviews Section -->
     <section id="reviews" class="reviews">
         <div class="container">
-            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="reviews-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="rating-badge">
+                    <i class="fab fa-facebook-square"></i>
+                    <span class="rating-stars">★★★★★</span>
+                    <span class="rating-text">5.0 on Facebook</span>
+                </div>
+            </div>
+
             <div class="reviews-grid">
                 <div class="review-card">
                     <div class="review-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <p class="review-text">"Precision Maintenance came out same day and had our AC running perfectly. Highly recommend!"</p>
-                    <p class="review-author">- Sarah M.</p>
+                    <div class="review-footer">
+                        <p class="review-author">- Sarah M.</p>
+                        <i class="fab fa-facebook review-platform" title="Facebook Review"></i>
+                    </div>
                 </div>
-                
+
                 <div class="review-card">
                     <div class="review-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <p class="review-text">"Professional, fast, and affordable. They installed our new system and it works perfectly."</p>
-                    <p class="review-author">- Mike R.</p>
+                    <div class="review-footer">
+                        <p class="review-author">- Mike R.</p>
+                        <i class="fab fa-google review-platform" title="Google Review"></i>
+                    </div>
                 </div>
-                
+
                 <div class="review-card">
                     <div class="review-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <p class="review-text">"Great service! They've been maintaining our system for years and we've never had issues."</p>
-                    <p class="review-author">- Jennifer L.</p>
+                    <div class="review-footer">
+                        <p class="review-author">- Jennifer L.</p>
+                        <i class="fab fa-facebook review-platform" title="Facebook Review"></i>
+                    </div>
                 </div>
-                
+
                 <div class="review-card">
                     <div class="review-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
                     <p class="review-text">"Emergency service at 2am and they saved us! True professionals who know their stuff."</p>
-                    <p class="review-author">- David K.</p>
+                    <div class="review-footer">
+                        <p class="review-author">- David K.</p>
+                        <i class="fab fa-google review-platform" title="Google Review"></i>
+                    </div>
                 </div>
             </div>
-            
-            <div class="mascot-container">
-                <img src="assets/pm_selfie.jpg" alt="Precision Maintenance Mascot" class="mascot-img">
-            </div>
             <!-- TODO: Integrate Facebook Reviews API and Google Places Reviews API for live review pulling -->
+        </div>
+    </section>
+
+    <!-- Request a Quote Section -->
+    <section id="quote" class="quote-section">
+        <div class="container">
+            <div class="quote-header">
+                <h2 class="section-title">Request a Free Quote</h2>
+                <p class="quote-subtext">Fill out the form below and we'll get back to you within 24 hours with a clear, upfront estimate.</p>
+            </div>
+
+            <div class="quote-card">
+                <form id="quoteForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="q-name">Your Name <span class="req">*</span></label>
+                            <input type="text" id="q-name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="q-phone">Phone Number <span class="req">*</span></label>
+                            <input type="tel" id="q-phone" name="phone" placeholder="(386) 000-0000" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="q-email">Email Address <span class="req">*</span></label>
+                            <input type="email" id="q-email" name="email" placeholder="you@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="q-sqft">Home Square Footage</label>
+                            <input type="text" id="q-sqft" name="sqft" placeholder="e.g. 1,500 sq ft (optional)">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="q-service">Service Needed <span class="req">*</span></label>
+                            <select id="q-service" name="service" required>
+                                <option value="">Select Service Type</option>
+                                <option value="ac-repair">AC Repair</option>
+                                <option value="ac-installation">AC Installation</option>
+                                <option value="ac-maintenance">AC Maintenance</option>
+                                <option value="heating-repair">Heating Repair</option>
+                                <option value="heating-installation">Heating Installation</option>
+                                <option value="duct-work">Duct Work</option>
+                                <option value="system-replacement">System Replacement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q-age">System Age</label>
+                            <select id="q-age" name="system_age">
+                                <option value="">Select System Age</option>
+                                <option value="under-5">Less than 5 years</option>
+                                <option value="5-10">5–10 years</option>
+                                <option value="10-15">10–15 years</option>
+                                <option value="15+">15+ years</option>
+                                <option value="not-sure">Not sure</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row form-row-radios">
+                        <div class="form-group">
+                            <span class="radio-group-label">Urgency <span class="req">*</span></span>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="urgency" value="emergency" required>
+                                    <span class="radio-custom"></span>
+                                    <span><strong class="urgency-emergency">Emergency</strong> — Need help ASAP</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="urgency" value="soon">
+                                    <span class="radio-custom"></span>
+                                    <span><strong>Soon</strong> — Within a few days</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="urgency" value="planning">
+                                    <span class="radio-custom"></span>
+                                    <span><strong>Planning ahead</strong> — Just getting estimates</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="radio-group-label">Preferred Contact</span>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="contact_pref" value="phone">
+                                    <span class="radio-custom"></span>
+                                    <span>Phone call</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="contact_pref" value="email">
+                                    <span class="radio-custom"></span>
+                                    <span>Email</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="contact_pref" value="text">
+                                    <span class="radio-custom"></span>
+                                    <span>Text message</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="q-description">Describe the Issue</label>
+                        <textarea id="q-description" name="description" placeholder="Tell us what's going on with your system — any symptoms, sounds, or issues you've noticed..." rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-quote-submit">
+                        <i class="fas fa-paper-plane"></i> Get My Free Quote
+                    </button>
+                    <!-- TODO: Connect to EmailJS/Formspree sending to quotes@precisionmaintenancecf.com -->
+                </form>
+            </div>
         </div>
     </section>
 
@@ -217,7 +462,7 @@
                             <a href="tel:386-286-3630">386-286-3630</a>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
@@ -225,40 +470,38 @@
                             <a href="mailto:info@precisionmaintenancecf.com">info@precisionmaintenancecf.com</a>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3>Service Area</h3>
-                            <p>Serving Central Florida</p>
+                            <p>Proudly Serving Volusia County, Seminole County &amp; Greater Orlando</p>
+                            <p class="service-cities">Daytona Beach · DeLand · Deltona · Palm Coast · Ormond Beach · Sanford · Lake Mary · Casselberry · Winter Springs · Orlando</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <i class="fas fa-clock"></i>
                         <div>
                             <h3>Hours</h3>
-                            <p>Monday-Friday: 8am-6pm<br>
-                               Saturday: 9am-4pm<br>
+                            <p>Monday–Friday: 8am–6pm<br>
+                               Saturday: 9am–4pm<br>
                                Emergency: 24/7</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="contact-form">
                     <form id="contactForm">
                         <div class="form-group">
                             <input type="text" id="name" name="name" placeholder="Your Name" required>
                         </div>
-                        
                         <div class="form-group">
                             <input type="email" id="email" name="email" placeholder="Your Email" required>
                         </div>
-                        
                         <div class="form-group">
                             <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
                         </div>
-                        
                         <div class="form-group">
                             <select id="service" name="service" required>
                                 <option value="">Select Service Needed</option>
@@ -268,11 +511,9 @@
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        
                         <div class="form-group">
                             <textarea id="message" name="message" placeholder="Tell us about your needs..." rows="4" required></textarea>
                         </div>
-                        
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
                     <!-- TODO: Connect form to email service (EmailJS, Formspree, or backend endpoint) -->
@@ -281,35 +522,72 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer — pm_cover.jpg displayed as proper logo lockup -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>Precision Maintenance</h3>
-                    <p>Maintaining Your Cool</p>
-                    <p><a href="tel:386-286-3630">386-286-3630</a></p>
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <img src="assets/pm_cover.jpg" alt="Precision Maintenance" class="footer-logo">
+                    <a href="tel:386-286-3630" class="footer-phone">386-286-3630</a>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=61551926426458" target="_blank" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Google">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
                 </div>
-                
-                <div class="footer-social">
-                    <a href="https://www.facebook.com/profile.php?id=61551926426458" target="_blank" class="social-link">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-google"></i>
-                    </a>
+
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why">Why Choose Us</a></li>
+                        <li><a href="#work">Our Work</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#quote">Get a Quote</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
+
+                <div class="footer-area">
+                    <h4>Service Area</h4>
+                    <p>Proudly Serving Volusia County, Seminole County &amp; Greater Orlando</p>
+                    <p class="footer-cities">Daytona Beach · DeLand · Deltona · Palm Coast · Ormond Beach · Sanford · Lake Mary · Casselberry · Winter Springs · Orlando</p>
+                </div>
+
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2026 Precision Maintenance. All rights reserved.</p>
                 <p>Website by [Your Name]</p>
             </div>
         </div>
     </footer>
+
+    <!-- Floating Emergency CTA — mobile only, appears after scrolling past hero -->
+    <div class="emergency-cta" id="emergencyCta" aria-hidden="true">
+        <a href="tel:386-286-3630" class="emergency-btn emergency-call">
+            <i class="fas fa-phone-alt"></i>
+            <span>Call Now</span>
+        </a>
+        <div class="emergency-divider"></div>
+        <a href="#quote" class="emergency-btn emergency-book">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Book Online</span>
+        </a>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
